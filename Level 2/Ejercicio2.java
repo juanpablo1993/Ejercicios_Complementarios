@@ -11,16 +11,15 @@ public class Ejercicio2 {
             int numero = sc.nextInt();
             lista.add(numero);
         }
+        System.out.println("El tamaño de la lista es: " + lista.size());
         System.out.print("Ingrese un numero entero para colocar al principio de la lista: ");
         int numero = sc.nextInt();
         lista.add(0, numero);
         System.out.print("Ingrese un numero entero para colocar al final de la lista: ");
         numero = sc.nextInt();
         lista.add(numero);
-        for (int i=0;i<lista.size();i++) {
-
-            System.out.println(lista.get(i));
-        }
+        System.out.print(lista);
+        System.out.println();
         System.out.println("El tamaño de la lista es: " + lista.size());
         sc.close();
         
